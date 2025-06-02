@@ -1,8 +1,11 @@
 title: Bitemetrics
 description: When good meals meet good feels.
-theme: just-the-docs
 
-url: https://just-the-docs.github.io
+remote_theme: just-the-docs/just-the-docs   
+logo: "/assets/images/logo.png"
+
+url: "https://kenjigunawan.github.io"  
+baseurl: "/bitemetrics"                
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Bitemetrics Repo: https://github.com/kenjigunawan/bitemetrics
