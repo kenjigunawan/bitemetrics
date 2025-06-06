@@ -2,9 +2,9 @@
 title: Home
 layout: home
 ---
-# Bitemetrics
+# Gas or Pass?
 
-## When Good Meals meet Good Feels
+## An Algorithm for Deliciousness
 
 This title is just a test, I want to try making new subpages, I guess.
 

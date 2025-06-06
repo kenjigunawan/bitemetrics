@@ -1,11 +1,11 @@
-title: Bitemetrics
-description: When good meals meet good feels.
+title: Gas or Pass?
+description: An Algorithm for Deliciousness
 
 theme: just-the-docs 
-logo: "/assets/images/logo.png"
+logo: "/assets/images/gas or pass.svg"
 
 url: "https://kenjigunawan.github.io"  
-baseurl: "/bitemetrics"                
+baseurl: "/gasorpass"                
 
 aux_links:
-  Bitemetrics Repo: https://github.com/kenjigunawan/bitemetrics
+  Bitemetrics Repo: https://github.com/kenjigunawan/gasorpass
