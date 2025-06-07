@@ -6,4 +6,4 @@ nav_order: 2
 
 # About
 
-Welcome to Bitemetrics! This is a new subpage!
+Welcome to Gas or Pass! This is a new subpage!

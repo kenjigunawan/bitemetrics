@@ -4,7 +4,7 @@ title: Hypothesis Test
 nav_order: 3
 ---
 
-### Hypothesis Test: Does Newness of Interaction Affect Rating?
+# Hypothesis Test: Does Newness of Interaction Affect Rating?
 
 As mentioned in our earlier bivariate analysis, we were curious whether the **newness** of an interaction influences how it is rated. Specifically, we wanted to know if recipes that receive high ratings (4 or 5) tend to be **newer** than those that receive low ratings (1–3). Here, *newness* refers to the difference in days between the date the recipe was rated and the date it was first submitted.
 
@@ -33,7 +33,7 @@ To perform the test:
 
 4. We then calculated the **p-value** as the proportion of shuffled test statistics more extreme than the observed value.
 
-### ✅ Result
+## Result
 
 * **Observed statistic**: -312.19
 * **p-value**: < 0.01
