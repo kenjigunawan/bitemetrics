@@ -1,11 +1,12 @@
 ---
 title: Introduction
 layout: home
+nav_order: 1
 ---
 # Gas or Pass?
 ![Logo](assets/images/gas%20or%20pass.svg)
 
-## By: Kenji Gunawan and Sumadhu Rubaiyat
+### By: Kenji Gunawan and Sumadhu Rubaiyat
 
 ## An Algorithm for Deliciousness
 

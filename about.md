@@ -6,4 +6,8 @@ nav_order: 2
 
 # Data Cleaning and Exploratory Data Analysis
 
-Welcome to Gas or Pass! This is a new subpage!
+We first perform a merging of the recipes and interactions DataFrame as we want to incorporate recipes with all its comments/interactions. This is just so that we can work with everything on the same DataFrame.
+
+{% raw %}
+{% include assets/html/mergeddf.html %}
+{% endraw %}
