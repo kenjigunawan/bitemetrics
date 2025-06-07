@@ -5,6 +5,8 @@ layout: home
 # Gas or Pass?
 ![Logo](assets/images/gas%20or%20pass.svg)
 
+## By: Kenji Gunawan and Sumadhu Rubaiyat
+
 ## An Algorithm for Deliciousness
 
 Food is expensive, but hunger doesn’t care. So we cook. Whether you're a broke college student, a resourceful parent, or just someone trying to survive another week without eating out, recipes are the lifeline to affordable, satisfying meals. But here's the catch: not all recipes are created equal. You're scrolling through Food.com, staring at some stew that *might* be the next best thing, or might taste like boiled regret. How do you know if it’s worth your time, money, and appetite?
