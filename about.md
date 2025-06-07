@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
+title: Data Cleaning and Exploratory Data Analysis
 nav_order: 2
 ---
 
-# About
+# Data Cleaning and Exploratory Data Analysis
 
 Welcome to Gas or Pass! This is a new subpage!

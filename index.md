@@ -1,5 +1,5 @@
 ---
-title: What's Cooking?
+title: Introduction
 layout: home
 ---
 # Gas or Pass?

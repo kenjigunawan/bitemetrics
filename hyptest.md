@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Hypothesis Test
-nav_order: 3
+title: Hypothesis Testing
+nav_order: 4
 ---
 
 # Hypothesis Test: Does Newness of Interaction Affect Rating?
