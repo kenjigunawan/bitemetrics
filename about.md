@@ -8,6 +8,9 @@ nav_order: 2
 
 We first perform a merging of the recipes and interactions DataFrame as we want to incorporate recipes with all its comments/interactions. This is just so that we can work with everything on the same DataFrame.
 
-{% raw %}
-{% include mergeddf.html %}
-{% endraw %}
+<iframe 
+  src="https://kenjigunawan.github.io/gasorpass/assets/html/mergeddf.html" 
+  width="100%" 
+  height="600" 
+  style="border:none; margin: 20px 0;"
+></iframe>
