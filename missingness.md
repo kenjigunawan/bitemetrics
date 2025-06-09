@@ -30,7 +30,7 @@ In all four cases the propensity to omit a rating probably depends on the value 
 
 For 'name' only one row has no name, and looking at the steps it looks like the steps are very concise. It seems like a draft recipe that accidentally makes it into the csv. Hence, it is only interesting to inspect whether 'description' is MCAR, MAR, or NMAR.
 
-### Is `description` Missing by Design, MCAR, MAR or NMAR?
+## Is `description` Missing by Design, MCAR, MAR or NMAR?
 
 It's clearly not missing by design because description contains additional words that are not just the tags. It's a human-readable *description* of the recipe, unlike tags. Even though the content might be correlated with the tags, but we can't recreate a missing description.
 
