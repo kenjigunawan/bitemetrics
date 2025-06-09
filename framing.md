@@ -31,9 +31,6 @@ We select the following categories:
 
 These are each sensible predictors for the average rating given. It's important to note that `submitted` is also included, despite not being available at the time the recipe is published because our Hypothesis Test showed strong evidence that it plays a significant role in predicting the average rating a recipe will receive, with a very low p-value.
 
-Also while predicting, if you want to see the average rating of the recipe at the time of publishing, you can impute `submitted` to be 0.
-
-Originally our `submitted` column was the date of submission, but now it has been changed into the number of days it has been out before the recipe gets rated.
 ```
 minutes             int64
 submitted           int64
@@ -47,6 +44,9 @@ protein           float64
 saturated_fat     float64
 carbohydrates     float64
 ```
-
 <img src="https://kenjigunawan.github.io/gasorpass/assets/images/gas%20or%20pass%20logo%20only.svg" alt="Gas or Pass Logo" style="float: right; margin: 0 0 1em 1em; width: 200px;" />
+Originally our `submitted` column was the date of submission, but now it has been changed into the number of days it has been out before the recipe gets rated.
+
+Also while predicting, if you want to see the average rating of the recipe at the time of publishing, you can impute `submitted` to be 0.
+
 Now every column is of a numerical data type, we can perform our **Regression** of the average rating. Let's get cooking!
