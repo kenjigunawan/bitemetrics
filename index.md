@@ -3,11 +3,11 @@ title: Introduction
 layout: home
 nav_order: 1
 ---
-# Gas or Pass?
-# An Algorithm for Deliciousness
+# Gas or Pass? 
 ## By: Kenji Gunawan and Sumadhu Rubaiyat
 ![Logo](assets/images/gas%20or%20pass.svg)
 
+# An Algorithm for Deliciousness
 Food is expensive, but hunger doesn’t care. So we cook. Whether you're a broke college student, a resourceful parent, or just someone trying to survive another week without eating out, recipes are the lifeline to affordable, satisfying meals. But here's the catch: not all recipes are created equal. You're scrolling through Food.com, staring at some stew that *might* be the next best thing, or might taste like boiled regret. How do you know if it’s worth your time, money, and appetite?
 
 Enter our project: **Gas or Pass? - An Algorithm for Deliciousness**. With thousands of recipes at our fingertips and a goldmine of user reviews, we set out to build a model that helps you decide: **Gas or Pass?** In other words, given a recipe’s ingredients, instructions, and nutritional content, can we predict how well it will be received by the Food.com community?
