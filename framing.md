@@ -48,5 +48,5 @@ saturated_fat     float64
 carbohydrates     float64
 ```
 
-<img src="/assets/images/gas%20or%20pass%20logo%20only.svg" alt="Gas or Pass Logo" style="float: right; margin: 0 0 1em 1em; width: 200px;" />
+<img src="https://kenjigunawan.github.io/gasorpass/assets/images/gas%20or%20pass%20logo%20only.svg" alt="Gas or Pass Logo" style="float: right; margin: 0 0 1em 1em; width: 200px;" />
 Now every column is of a numerical data type, we can perform our **Regression** of the average rating. Let's get cooking!
