@@ -21,12 +21,49 @@ Next, we parse the nutrition (i.e. we explode the DataFrame for nutrition) in or
 
 Last, we combine these parsed information into the interactions DataFrame. So now we can perform proper analysis and prediction on either the merged DataFrame which includes every interaction and recipe which has an interaction (since we joined 'inner'), or the interaction DataFrame, or the recipe DataFrame by itself.
 
+We have finished cleaning. The DataFrame contains `(219393, 23)` rows and columns. The datatype of each column is shown as follows.
+
+| `col_name`        | `dtype`   |
+|-------------------|-----------|
+| `user_id`         | int64     |
+| `recipe_id`       | int64     |
+| `date`            | object    |
+| `rating`          | float64   |
+| `review`          | object    |
+| `name`            | object    |
+| `id`              | int64     |
+| `minutes`         | int64     |
+| `contributor_id`  | int64     |
+| `submitted`       | object    |
+| `tags`            | object    |
+| `n_steps`         | int64     |
+| `steps`           | object    |
+| `description`     | object    |
+| `ingredients`     | object    |
+| `n_ingredients`   | int64     |
+| `calories`        | float64   |
+| `total_fat`       | float64   |
+| `sugar`           | float64   |
+| `sodium`          | float64   |
+| `protein`         | float64   |
+| `saturated_fat`   | float64   |
+| `carbohydrates`   | float64   |
+
+The first 5 rows of our cleaned DataFrame is as follows.
+
+<iframe 
+  src="https://kenjigunawan.github.io/gasorpass/assets/html/cleaneddf.html" 
+  width="100%" 
+  height="600" 
+  style="border:none; margin: 20px 0;"
+></iframe>
+
 ## Univariate Analysis
 
 First, we want to see how the newness of a recipe relates to the fact that the recipes get rated or not. To do this, we want to look at the probability density (histogram) of the relationship between the newness of a recipe and wheher or not it gets rated.
 
 <iframe
-  src="assets/univar_analysis.html"
+  src="https://kenjigunawan.github.io/gasorpass/assets/html/univar_analysis.html"
   width="800"
   height="600"
   frameborder="0"
@@ -41,7 +78,7 @@ If you recall the "Pareto Principle", it appears everywhere, even in this datase
 For this section, we are going to investigate whether newness relates with the rating of a recipe, and what rating that they get; so the two variables are rating given (which directly corresponds to *whether they rate in the first place*) with the newness of the recipe.
 
 <iframe
-  src="assets/bivar_analysis.html"
+  src="https://kenjigunawan.github.io/gasorpass/assets/html/bivar_analysis.html"
   width="800"
   height="600"
   frameborder="0"
