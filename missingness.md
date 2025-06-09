@@ -53,9 +53,9 @@ We'll reason about the data generation process. Let's take a look at an example 
 
 They don't seem like they are generated from any other thing except the recipe writers' creativity (and probably include words from the tag), but so far **nothing suggests that the data might be NMAR**. So we'll just perform a **MAR/MCAR** test.
 
-### The MAR/MCAR Test: Permuted K-S Test
+### The MAR/MCAR Test: Permuted Kolmogorov-Smirnov Test
 
-The Permuted Kolmogorov-Smirnov Test consists of two things:
+The **Permuted Kolmogorov-Smirnov Test** (K-S Test) consists of two things:
 1. The test statistic is the **Kolmogorov-Smirnov** Test Statistic, which is the **maximum absolute difference** of the values of the Cumulative Distribution Functions of the two samples.
 2. We perform repeated **permutation tests** to simulate the null hypothesis of the population coming from the same distribution, and this generation process will provide us with an approximate p-value (by the Law of Large Numbers and Central Limit Theorem for approx. rate of convergence).
 

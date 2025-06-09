@@ -10,7 +10,7 @@ We first perform a merging of the recipes and interactions DataFrame as we want 
 
 <iframe 
   src="https://kenjigunawan.github.io/gasorpass/assets/html/mergeddf.html" 
-  width="100%" 
+  width="800" 
   height="600" 
   style="border:none; margin: 20px 0;"
 ></iframe>
@@ -65,7 +65,7 @@ First, we want to see how the newness of a recipe relates to the fact that the r
 <iframe
   src="https://kenjigunawan.github.io/gasorpass/assets/html/univar_analysis.html"
   width="800"
-  height="600"
+  height="450"
   frameborder="0"
 ></iframe>
 
@@ -76,11 +76,10 @@ If you recall the "Pareto Principle", it appears everywhere, even in this datase
 ## Bivariate Analysis
 
 For this section, we are going to investigate whether newness relates with the rating of a recipe, and what rating that they get; so the two variables are rating given (which directly corresponds to *whether they rate in the first place*) with the newness of the recipe.
-
 <iframe
   src="https://kenjigunawan.github.io/gasorpass/assets/html/bivar_analysis.html"
   width="800"
-  height="600"
+  height="450"
   frameborder="0"
 ></iframe>
 

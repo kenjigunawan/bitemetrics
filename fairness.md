@@ -25,7 +25,7 @@ This is almost the maximum of 1. After the Monte Carlo simulation with 5000 iter
 <iframe
   src="https://kenjigunawan.github.io/gasorpass/assets/html/fairness_ks.html"
   width="800"
-  height="500"
+  height="450"
   frameborder="0"
 ></iframe>
 

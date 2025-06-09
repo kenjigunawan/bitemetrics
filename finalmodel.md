@@ -22,7 +22,7 @@ As a result, in order to perform feature selection, we did 2 things:
 
 We then constructed a full pipeline using `sklearn.Pipeline` that encapsulates all preprocessing and modeling steps. The numeric features were first standardized and then quantile-transformed. The categorical features were one-hot encoded and scaled (to prevent errors if we added categorical columns).
 
-We then fit a `Lasso` regression model with a fixed regularization parameter `alpha=0.01`. This value was selected based on a few experimentation; $\alpha=0.1$ was tried to be too high because it set almost all coefficients to zero, while $\alpha=0.001$ was too slow to converge and had too high of a variance.
+We then fit a `Lasso` regression model with a fixed regularization parameter `alpha=0.01`. This value was selected based on a few experimentation; `\alpha=0.1` was tried to be too high because it set almost all coefficients to zero, while `\alpha=0.001` was too slow to converge and had too high of a variance.
 
 The use of `Lasso` allowed us to perform automatic **feature selection** by shrinking some coefficients to zero, particularly among collinear or less informative features. This not only simplified the model but also **reduced the risk of overfitting**.
 
